@@ -1,0 +1,32 @@
+.apihomeContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer {
+  width: 50%;
+  min-width: 600px;
+  margin: 0 auto;
+  
+  form{
+  
+    display: flex;
+    flex-direction: column;
+
+    input,select {
+      margin: 1rem;
+      font-size: 2rem;
+    }
+
+    select {
+      width: 40%;
+      min-width: 100px;
+      align-self: center;
+    }
+
+  }
+
+}

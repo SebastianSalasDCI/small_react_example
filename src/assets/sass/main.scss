@@ -1,0 +1,13 @@
+@import "./reset";
+@import "./navbar";
+@import "./home";
+@import "./apihome";
+
+body {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin-top: 7rem;
+}
